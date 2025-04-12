@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
-     preserveAspectRatio="xMidYMid meet">
-  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-     fill="#d68ba5" stroke="none">
-    <path d="M590 2841 c-79 -28 -126 -82 -134 -152 -4 -30 -5 -589 -4 -1244 3
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M590 2841 c-79 -28 -126 -82 -134 -152 -4 -30 -5 -589 -4 -1244 3
 -1179 3 -1190 24 -1225 11 -19 38 -45 60 -57 l39 -23 770 0 c821 0 797 -1 912
 50 45 20 117 72 158 115 66 68 127 209 144 332 6 41 9 472 8 1084 l-2 1016
 -29 37 c-16 21 -50 48 -75 60 -46 21 -51 21 -931 23 -851 3 -887 2 -940 -16z
@@ -64,137 +70,56 @@ m-2005 -19 c0 -5 -6 -14 -14 -21 -12 -9 -15 -8 -13 9 1 20 27 31 27 12z m1996
 14 17 20 19 20 6z m1705 -171 c-3 -5 -12 -10 -20 -10 -7 0 -16 -6 -18 -12 -4
 -10 -6 -10 -6 0 -1 7 9 17 22 22 29 12 29 12 22 0z m-55 -28 c0 -11 -37 -32
 -44 -25 -15 15 -4 33 19 33 14 0 25 -3 25 -8z"/>
-    <path d="M842 2654 c-52 -36 -52 -39 -52 -522 l0 -449 23 -34 c48 -72 14 -69
+<path d="M842 2654 c-52 -36 -52 -39 -52 -522 l0 -449 23 -34 c48 -72 14 -69
 771 -69 672 0 679 0 716 21 21 12 47 38 59 59 20 37 21 48 21 474 0 474 0 471
 -56 515 -27 21 -32 21 -743 21 -633 0 -719 -2 -739 -16z m1463 -49 l25 -24 0
 -449 0 -449 -25 -27 -24 -26 -700 0 -699 0 -26 31 -26 31 0 444 0 445 26 24
 27 25 699 0 699 0 24 -25z"/>
-    <path d="M953 2542 c-29 -18 -33 -70 -33 -418 0 -372 3 -402 45 -418 9 -3 290
+<path d="M953 2542 c-29 -18 -33 -70 -33 -418 0 -372 3 -402 45 -418 9 -3 290
 -6 625 -6 l609 0 20 26 c20 26 21 37 21 405 0 366 -1 380 -20 399 -20 20 -33
 20 -637 20 -340 0 -623 -4 -630 -8z m1235 -49 c6 -13 8 -461 2 -731 0 -10
 -125 -12 -607 -10 l-608 3 -3 365 c-1 201 0 371 3 377 3 10 132 13 604 13 562
 0 601 -1 609 -17z m12 -763 c0 -5 -5 -10 -11 -10 -5 0 -7 5 -4 10 3 6 8 10 11
 10 2 0 4 -4 4 -10z"/>
-    <path d="M981 1479 c-55 -16 -110 -59 -139 -108 -22 -38 -27 -58 -26 -113 0
+<path d="M981 1479 c-55 -16 -110 -59 -139 -108 -22 -38 -27 -58 -26 -113 0
 -56 5 -74 30 -114 43 -71 108 -107 187 -108 212 -1 309 253 151 393 -61 54
 -130 70 -203 50z m162 -66 c101 -65 100 -241 -2 -308 -165 -109 -363 83 -259
 252 55 90 171 115 261 56z"/>
-    <path d="M984 1337 c-3 -8 -4 -49 -2 -93 3 -68 5 -79 20 -78 25 2 138 76 138
+<path d="M984 1337 c-3 -8 -4 -49 -2 -93 3 -68 5 -79 20 -78 25 2 138 76 138
 90 0 12 -123 94 -141 94 -5 0 -12 -6 -15 -13z m35 -19 c-1 -7 -5 -24 -9 -38
 -7 -22 -8 -21 -9 13 -1 20 4 37 9 37 6 0 10 -6 9 -12z m24 -94 c-20 -19 -39
 -31 -42 -28 -3 4 0 9 7 11 7 3 12 23 12 50 l0 44 30 -21 30 -21 -37 -35z m67
 35 c0 -5 -4 -9 -10 -9 -5 0 -10 7 -10 16 0 8 5 12 10 9 6 -3 10 -10 10 -16z"/>
-    <path d="M1524 1481 c-85 -21 -152 -88 -175 -175 -28 -103 50 -230 159 -262
+<path d="M1524 1481 c-85 -21 -152 -88 -175 -175 -28 -103 50 -230 159 -262
 172 -50 328 106 278 278 -32 112 -155 186 -262 159z m144 -63 c49 -30 86 -101
 86 -164 -2 -95 -90 -184 -183 -184 -97 0 -181 88 -181 189 0 148 152 235 278
 159z"/>
-    <path d="M1505 1347 c-3 -7 -5 -51 -3 -98 3 -71 6 -84 21 -87 16 -3 17 5 15
+<path d="M1505 1347 c-3 -7 -5 -51 -3 -98 3 -71 6 -84 21 -87 16 -3 17 5 15
 94 -2 67 -7 99 -15 102 -7 2 -15 -3 -18 -11z"/>
-    <path d="M1612 1351 c-9 -5 -12 -34 -10 -97 3 -75 6 -89 21 -92 15 -3 17 6 17
+<path d="M1612 1351 c-9 -5 -12 -34 -10 -97 3 -75 6 -89 21 -92 15 -3 17 6 17
 92 0 95 -5 112 -28 97z"/>
-    <path d="M2042 1476 c-124 -40 -194 -180 -147 -293 41 -98 112 -147 210 -147
+<path d="M2042 1476 c-124 -40 -194 -180 -147 -293 41 -98 112 -147 210 -147
 161 1 264 151 210 305 -38 106 -165 169 -273 135z m167 -65 c59 -46 75 -75 79
 -144 3 -57 1 -66 -27 -105 -79 -108 -196 -120 -287 -28 -49 48 -63 105 -44
 175 33 122 185 178 279 102z"/>
-    <path d="M2145 1349 c-8 -12 34 -61 46 -53 14 8 10 31 -7 48 -18 19 -30 20
+<path d="M2145 1349 c-8 -12 34 -61 46 -53 14 8 10 31 -7 48 -18 19 -30 20
 -39 5z"/>
-    <path d="M2067 1272 c-33 -33 -47 -56 -47 -75 0 -45 38 -35 98 26 l52 53 -23
+<path d="M2067 1272 c-33 -33 -47 -56 -47 -75 0 -45 38 -35 98 26 l52 53 -23
 22 c-13 12 -25 22 -28 22 -3 0 -26 -22 -52 -48z m37 -42 c-68 -69 -87 -47 -24
 28 30 37 36 40 49 27 13 -13 10 -19 -25 -55z"/>
-    <path d="M2310 831 c0 -20 105 -161 120 -161 16 0 21 19 10 40 -17 32 -110
+<path d="M2310 831 c0 -20 105 -161 120 -161 16 0 21 19 10 40 -17 32 -110
 140 -120 140 -6 0 -10 -9 -10 -19z"/>
-    <path d="M2235 770 c-7 -12 -3 -19 74 -107 30 -35 61 -63 68 -63 22 0 15 35
+<path d="M2235 770 c-7 -12 -3 -19 74 -107 30 -35 61 -63 68 -63 22 0 15 35
 -13 61 -14 13 -42 45 -62 72 -36 46 -55 57 -67 37z"/>
-    <path d="M2165 717 c-8 -19 12 -49 88 -132 35 -39 48 -47 58 -38 15 15 3 35
+<path d="M2165 717 c-8 -19 12 -49 88 -132 35 -39 48 -47 58 -38 15 15 3 35
 -79 123 -50 54 -61 62 -67 47z"/>
-    <path d="M2085 660 c-6 -10 7 -28 96 -132 24 -29 49 -32 49 -6 0 15 -113 148
+<path d="M2085 660 c-6 -10 7 -28 96 -132 24 -29 49 -32 49 -6 0 15 -113 148
 -127 148 -6 0 -15 -5 -18 -10z"/>
-    <path d="M2015 600 c-8 -14 62 -100 81 -100 25 0 15 34 -22 73 -37 39 -49 44
+<path d="M2015 600 c-8 -14 62 -100 81 -100 25 0 15 34 -22 73 -37 39 -49 44
 -59 27z"/>
-    <path d="M604 339 c-3 -6 0 -15 7 -20 8 -5 160 -8 339 -6 300 2 325 3 328 20
+<path d="M604 339 c-3 -6 0 -15 7 -20 8 -5 160 -8 339 -6 300 2 325 3 328 20
 3 16 -18 17 -332 17 -235 0 -337 -3 -342 -11z"/>
-    <path d="M605 259 c-4 -6 -3 -15 2 -20 5 -5 168 -8 394 -7 333 3 384 5 384 18
+<path d="M605 259 c-4 -6 -3 -15 2 -20 5 -5 168 -8 394 -7 333 3 384 5 384 18
 0 13 -51 15 -387 18 -273 1 -389 -1 -393 -9z"/>
-    <!-- Círculo Start -->
-    <circle cx="1040" cy="1250" r="200" fill="transparent" (click)="start()">
-      <title>Start</title>
-    </circle>
-
-    <!-- Círculo Pause -->
-    <circle cx="1570" cy="1250" r="200" fill="transparent" (click)="pause()">
-      <title>Pause</title>
-    </circle>
-
-    <!-- Círculo Edit -->
-    <circle cx="2100" cy="1250" r="200" fill="transparent" (click)="edit()">
-      <title>Edit</title>
-    </circle>
-    <text x="1600" y="-2000"
-          font-size="500"
-          text-anchor="middle"
-          fill="black"
-          style="font-family: 'DigitalFont', sans-serif;"
-          transform="scale(1, -1)">
-      {{ display }}
-    </text>
-  </g>
-
+</g>
 </svg>
-
-<!-- app.component.html -->
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="300pt" height="300pt" viewBox="0 0 3000 3000" preserveAspectRatio="xMidYMid meet">
-  <g transform="translate(0,3000) scale(0.1,-0.1)" fill="#d68ba5" stroke="none">
-    <!-- seu conteúdo do console vai aqui como antes... -->
-  </g>
-
-  <foreignObject x="800" y="700" width="1800" height="1600">
-    <div xmlns="http://www.w3.org/1999/xhtml"
-         style="
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         width: 100%;
-         height: 100%;
-         font-family: 'DigitalFont', monospace;
-         font-size: 240px;
-         color: black;
-         text-align: center;
-       ">
-
-      <!-- DISPLAY NORMAL -->
-      <div *ngIf="!modoEdicao">
-        <div style="font-size: 320px;">{{ display }}</div>
-        <div style="font-size: 160px;">Sprint {{ sprintAtual }}/{{ totalSprints }}</div>
-      </div>
-
-      <!-- FORMULÁRIO DE CONFIGURAÇÃO -->
-      <form *ngIf="modoEdicao"
-            (submit)="salvarConfiguracoes(min.value, seg.value, intervaloMin.value, intervaloSeg.value, total.value); $event.preventDefault();"
-            style="font-size: 120px; display: flex; flex-direction: column; gap: 80px; align-items: center;">
-
-        <div style="display: flex; gap: 80px;">
-          <label>Min: <input type="number" min="0" max="59" #min required style="font-size: 120px; width: 200px;"></label>
-          <label>Seg: <input type="number" min="1" max="59" #seg required style="font-size: 120px; width: 200px;"></label>
-        </div>
-
-        <div style="display: flex; gap: 80px;">
-          <label>Intervalo Min: <input type="number" min="0" max="59" #intervaloMin required style="font-size: 120px; width: 200px;"></label>
-          <label>Intervalo Seg: <input type="number" min="0" max="59" #intervaloSeg required style="font-size: 120px; width: 200px;"></label>
-        </div>
-
-        <div>
-          <label>Sprints: <input type="number" min="1" max="20" #total required style="font-size: 120px; width: 200px;"></label>
-        </div>
-
-        <button type="submit" style="margin-top: 40px; font-size: 120px; padding: 30px 60px;">Salvar</button>
-      </form>
-    </div>
-  </foreignObject>
-
-</svg>
-
-
-
-

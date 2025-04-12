@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.console-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+
+.overlay-display {
+  position: absolute;
+  top: 18%; // ajusta isso conforme for testando
+  left: 22%; // ajusta isso conforme for testando
+  width: 56%; // largura do "display"
+  text-align: center;
+  font-family: 'DigitalFont', monospace;
+  color: black;
+  font-size: 2.5rem;
+  pointer-events: none; // não atrapalha cliques no SVG
+  line-height: 1.2;
+
+  .tempo {
+    font-size: 2.5rem;
+  }
+
+  .sprint {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+  }
+}
