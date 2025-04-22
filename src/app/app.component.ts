@@ -5,13 +5,11 @@ import {NgIf, NgOptimizedImage} from '@angular/common';
 @Component({
   selector: 'app-root',
   imports: [
-    NgIf,
-    NgOptimizedImage
+    NgIf
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-
 export class AppComponent {
   display = '25:00';
   modoEdicao = false;
@@ -22,6 +20,24 @@ export class AppComponent {
   intervalo: any;
   sprintAtual = 1;
   totalSprints = 4;
+
+  tempo = {
+    min: 25,
+    seg: 0,
+    intervaloMin: 5,
+    intervaloSeg: 0,
+    sprints: 4
+  };
+  modoDigitacao: keyof typeof this.tempo | null = null;
+
+  definirValorManual(valor: string) {
+    if (this.modoDigitacao && /^\d+$/.test(valor)) {
+      let v = Math.min(Math.max(0, parseInt(valor)), this.modoDigitacao === 'sprints' ? 20 : 59);
+      if (this.modoDigitacao === 'sprints' && v === 0) v = 1;
+      this.tempo[this.modoDigitacao] = v;
+    }
+    this.modoDigitacao = null;
+  }
 
   start() {
     if (this.intervalo) return;
@@ -46,15 +62,30 @@ export class AppComponent {
     this.modoEdicao = true;
   }
 
-  salvarConfiguracoes(min: string, seg: string, intervaloMin: string, intervaloSeg: string, total: string) {
-    const tempoMin = parseInt(min, 10) || 0;
-    const tempoSeg = parseInt(seg, 10) || 0;
-    const intervaloMinutos = parseInt(intervaloMin, 10) || 0;
-    const intervaloSegundos = parseInt(intervaloSeg, 10) || 0;
-    const totalSprints = parseInt(total, 10) || 1;
+  ajustar(campo: keyof typeof this.tempo, delta: number) {
+    this.tempo[campo] += delta;
+
+    // Validar campos
+    if (['min', 'seg', 'intervaloMin', 'intervaloSeg'].includes(campo)) {
+      if (this.tempo[campo] < 0) this.tempo[campo] = 0;
+      if (this.tempo[campo] > 59) this.tempo[campo] = 59;
+    }
+
+    if (campo === 'sprints') {
+      if (this.tempo[campo] < 1) this.tempo[campo] = 1;
+      if (this.tempo[campo] > 20) this.tempo[campo] = 20;
+    }
+  }
+
+  salvarTudo() {
+    const tempoMin = this.tempo.min;
+    const tempoSeg = this.tempo.seg;
+    const intervaloMin = this.tempo.intervaloMin;
+    const intervaloSeg = this.tempo.intervaloSeg;
+    const totalSprints = this.tempo.sprints;
 
     const tempo = tempoMin * 60 + tempoSeg;
-    const intervalo = intervaloMinutos * 60 + intervaloSegundos;
+    const intervalo = intervaloMin * 60 + intervaloSeg;
 
     if (tempo < 1 || tempo > 3599) {
       return alert('Tempo de sprint deve estar entre 1 segundo e 59:59');
@@ -68,7 +99,6 @@ export class AppComponent {
     this.sprintAtual = 1;
     this.modoEdicao = false;
   }
-
 
   atualizarDisplay() {
     const minutos = Math.floor(this.tempoRestante / 60);
